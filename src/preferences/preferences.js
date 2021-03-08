@@ -1,5 +1,9 @@
+export const logoBar = {
+  companyLogo: "/img/logo.svg",
+  companyName: "Bedrijfsnaam",
+}
+
 export const navbar = {
-  companyLogo: "/img/logo singular.svg",
   navbarItems: ["Contact", "Prijzen"].reverse(),
   navbarItemsIcons: ["", ""].reverse(),
   navbarLinks: ["?page=contact", "?page=prijzen"].reverse(),
