@@ -14,7 +14,7 @@ export class ImageContainer extends React.Component {
     if (this.props.position === "none") {
       return (
         <div className="imageContainer">
-          <div className="nonePadding">
+          <div style={{ backgroundColor: this.props.bColor }} className="nonePadding">
             <h1 className="h1">{this.props.title}</h1>
             {text.map((line, i) =>
               <p className="p">{line}<br /></p>
